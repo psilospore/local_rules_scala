@@ -1,0 +1,25 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "ABC:A",
+        "directory" : "/Users/syedajafri/dev/bazelExample/ABC:A",
+        "sources" : [
+            "/Users/syedajafri/dev/bazelExample/ABC/A.scala"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+        ],
+        "out" : "/Users/syedajafri/dev/bazelExample/.bloop/out/hi",
+        "classesDir" : "/Users/syedajafri/dev/bazelExample/.bloop/out/hi/classes",
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.18",
+            "options" : [
+            ],
+            "jars" : [
+            ]
+        }
+    }
+}
