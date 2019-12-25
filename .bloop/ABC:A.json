@@ -2,16 +2,20 @@
     "version" : "1.1.2",
     "project" : {
         "name" : "ABC:A",
-        "directory" : "/Users/syedajafri/dev/bazelExample/ABC:A",
+        "directory" : "/Users/syedajafri/dev/bazelExample/ABC",
         "sources" : [
             "/Users/syedajafri/dev/bazelExample/ABC/A.scala"
         ],
         "dependencies" : [
         ],
         "classpath" : [
+            "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
+            "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
+            "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+            "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
         ],
-        "out" : "/Users/syedajafri/dev/bazelExample/.bloop/out/hi",
-        "classesDir" : "/Users/syedajafri/dev/bazelExample/.bloop/out/hi/classes",
+        "out" : "/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:A",
+        "classesDir" : "/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:A/classes",
         "scala" : {
             "organization" : "org.scala-lang",
             "name" : "scala-compiler",
@@ -19,6 +23,10 @@
             "options" : [
             ],
             "jars" : [
+                "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar",
+                "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
+                "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                "/Users/syedajafri/dev/bazelExample/bazel-out/darwin-fastbuild/bin/external/annex/v1/http/central.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar"
             ]
         }
     }
