@@ -1,10 +1,11 @@
-load("@rules_scala_annex//rules:scala.bzl", "scala_binary", "scala_library")
+load("@io_bazel_rules_scala//scala/bloop:scala_with_bloop.bzl", "scala_binary", "scala_library")
 
 scala_binary(
     name = "C_run",
     srcs = glob(["C.scala"]),
+    main_class = "C",
     visibility = ["//visibility:public"],
-    deps = ["C"]
+    deps = ["C", "B"]
 )
 
 scala_library(
