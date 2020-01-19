@@ -1,0 +1,38 @@
+INFO  started: Metals version 0.8.0 in workspace '/Users/syedajafri/dev/bazelExample'
+INFO  time: initialize in 0.53s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/t8/4kcdzxcx7c51v2yvg5hqgc1r0000gp/T/bsp-launcher6774485515104577537/bsp.socket'...
+Waiting for the bsp connection to come up...
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/ABC/A.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/ABC/B.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/ABC/C.scala
+[0m[32m[D][0m Loading 1 projects from '/Users/syedajafri/dev/bazelExample/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/syedajafri/dev/bazelExample/.bloop/ABC:A.json'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/t8/4kcdzxcx7c51v2yvg5hqgc1r0000gp/T/bsp-launcher6774485515104577537/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/t8/4kcdzxcx7c51v2yvg5hqgc1r0000gp/T/bsp-launcher6774485515104577537/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is enabled: /Users/syedajafri/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 1.51s
+INFO  Connected to Build server v1.3.4
+INFO  time: imported build in 0.12s
+INFO  time: indexed workspace in 1.52s
+WARN  unsupported Scala 2.12.18
+WARN  unsupported Scala 2.12.18
+INFO  compiling abc:a (1 scala source)
+INFO  compiling abc:b (1 scala source)
+INFO  time: compiled ABC:B in 0.32s
+INFO  time: compiled ABC:A in 3.73s
+ERROR Unexpected error when compiling ABC:B: 'null'
+ERROR Failed to compile 'ABC:B','ABC:A'
+Jan 16, 2020 10:17:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Jan 16, 2020 10:17:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+INFO  no build target: using presentation compiler with only scala-library
+Jan 18, 2020 10:34:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Jan 18, 2020 10:34:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/ABC/C.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/ABC/C.scala

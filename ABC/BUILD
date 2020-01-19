@@ -3,7 +3,7 @@ load("@io_bazel_rules_scala//scala/bloop:scala_with_bloop.bzl", "scala_binary", 
 scala_binary(
     name = "C_run",
     srcs = glob(["C.scala"]),
-    main_class = "C",
+    main_class = "ABC.C",
     visibility = ["//visibility:public"],
     deps = ["C", "B"]
 )
