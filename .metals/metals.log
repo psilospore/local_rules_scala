@@ -1,0 +1,72 @@
+INFO  started: Metals version 0.8.0 in workspace '/Users/syedajafri/dev/bazelExample'
+INFO  time: initialize in 0.72s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/t8/4kcdzxcx7c51v2yvg5hqgc1r0000gp/T/bsp-launcher7111902638691947066/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/t8/4kcdzxcx7c51v2yvg5hqgc1r0000gp/T/bsp-launcher7111902638691947066/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/t8/4kcdzxcx7c51v2yvg5hqgc1r0000gp/T/bsp-launcher7111902638691947066/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is enabled: /Users/syedajafri/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.66s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: imported build in 0.19s
+INFO  compiling bc_z_disjoint:a (1 scala source)
+INFO  time: compiled BC_Z_disjoint:A in 2.38s
+INFO  compiling bc_z_disjoint:b (1 scala source)
+INFO  time: compiled BC_Z_disjoint:B in 0.67s
+INFO  compiling bc_z_disjoint:c (1 scala source)
+INFO  time: indexed workspace in 3.62s
+INFO  Deduplicating compilation of BC_Z_disjoint:C from bsp client 'Metals 0.8.0' (since 3.915s)
+INFO  compiling bc_z_disjoint:c (1 scala source)
+INFO  time: compiled BC_Z_disjoint:C in 0.4s
+INFO  Deduplicating compilation of BC_Z_disjoint:C_run from bsp client 'Metals 0.8.0' (since 4.318s)
+ERROR Failed to create link for invalidated file /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C.class: /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C_run/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-9XBa-tPNQqmr0vYi4hn6eQ==/ABC/C.class -> /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C.class
+ERROR Failed to create link for invalidated file /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C.class: /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C_run/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-9XBa-tPNQqmr0vYi4hn6eQ==/ABC/C.class -> /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C.class
+ERROR Failed to create link for invalidated file /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C$.class: /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C_run/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-9XBa-tPNQqmr0vYi4hn6eQ==/ABC/C$.class -> /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C$.class
+ERROR Failed to create link for invalidated file /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C$.class: /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C_run/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-9XBa-tPNQqmr0vYi4hn6eQ==/ABC/C$.class -> /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-Rz7BvMr5RaCYk3Bf0016jg==/ABC/C$.class
+INFO  compiling bc_z_disjoint:c_run (1 scala source)
+INFO  compiling bc_z_disjoint:c_run (1 scala source)
+INFO  time: compiled BC_Z_disjoint:C_run in 0.86s
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/C copy.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/C copy.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+INFO  compiling abc:a (1 scala source)
+INFO  time: compiled ABC:A in 1.1s
+INFO  compiling abc:b (1 scala source)
+INFO  time: compiled ABC:B in 0.44s
+INFO  compiling abc:c (1 scala source)
+INFO  time: compiled ABC:C in 0.31s
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z_run.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z.scala
+WARN  no build target for: /Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z.scala
+INFO  compiling bc_z_disjoint:b (1 scala source)
+INFO  time: compiled BC_Z_disjoint:B in 0.42s
+INFO  compiling bc_z_disjoint:b (1 scala source)
+INFO  time: compiled BC_Z_disjoint:B in 0.17s
+INFO  compiling bc_z_disjoint:b (1 scala source)
+INFO  time: compiled BC_Z_disjoint:B in 2.47s
+INFO  compiling bc_z_disjoint:b (1 scala source)
+INFO  time: compiled BC_Z_disjoint:B in 0.29s
+INFO  compiling bc_z_disjoint:c (1 scala source)
+INFO  time: compiled BC_Z_disjoint:C in 0.52s
+ERROR Failed to create link for invalidated file /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-iIBa1JFgRlWwuSdsDN_OoQ==/ABC/C$.class: /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C_run/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-9BvxA5YuQ_qPrt1iwhK0qQ==/ABC/C$.class -> /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-iIBa1JFgRlWwuSdsDN_OoQ==/ABC/C$.class
+ERROR Failed to create link for invalidated file /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-iIBa1JFgRlWwuSdsDN_OoQ==/ABC/C.class: /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C_run/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-9BvxA5YuQ_qPrt1iwhK0qQ==/ABC/C.class -> /Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:C/bloop-internal-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==-iIBa1JFgRlWwuSdsDN_OoQ==/ABC/C.class
+INFO  compiling bc_z_disjoint:c_run (1 scala source)
+INFO  time: compiled BC_Z_disjoint:C_run in 0.24s
+ERROR code navigation does not work for the file '/Users/syedajafri/dev/bazelExample/ABC/B.scala' because the SemanticDB file '/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:B/bloop-bsp-clients-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==/META-INF/semanticdb/ABC/B.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/syedajafri/dev/bazelExample/ABC/B.scala' because the SemanticDB file '/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:B/bloop-bsp-clients-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==/META-INF/semanticdb/ABC/B.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/syedajafri/dev/bazelExample/ABC/B.scala' because the SemanticDB file '/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:B/bloop-bsp-clients-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==/META-INF/semanticdb/ABC/B.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/syedajafri/dev/bazelExample/ABC/B.scala' because the SemanticDB file '/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:B/bloop-bsp-clients-classes/classes-Metals-4Llq2fplT-mTwOG_YzY66w==/META-INF/semanticdb/ABC/B.scala.semanticdb' doesn't exist. There can be many reasons for this error. 

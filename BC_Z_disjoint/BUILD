@@ -18,12 +18,18 @@ scala_library(
 scala_library(
     name = "B",
     srcs = glob(["B.scala"]),
-    visibility = ["//visibility:public"],
-    deps = ["A"]
+    visibility = ["//visibility:public"]
 )
 
 scala_library(
-    name = "A",
-    srcs = glob(["A.scala"]),
+    name = "Z",
+    srcs = glob(["Z.scala"]),
     visibility = ["//visibility:public"]
+)
+
+scala_library(
+    name = "Z_run",
+    srcs = glob(["Z_run.scala"]),
+    visibility = ["//visibility:public"],
+    deps = ["Z"]
 )
