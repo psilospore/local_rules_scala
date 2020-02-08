@@ -1,23 +1,19 @@
 {
     "version" : "1.1.2",
     "project" : {
-        "name" : "ABC:C",
+        "name" : "BC_Z_disjoint:A",
         "directory" : "/Users/syedajafri/dev/bazelExample",
         "sources" : [
-            "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/ABC/C.scala"
+            "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/BC_Z_disjoint/A.scala"
         ],
         "dependencies" : [
-            "ABC:B",
-            "ABC:A"
         ],
         "classpath" : [
-            "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/bazel-out/darwin-fastbuild/bin/ABC/B.jar",
-            "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/bazel-out/darwin-fastbuild/bin/ABC/A.jar",
             "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/external/io_bazel_rules_scala_scala_library/scala-library-2.12.10.jar",
             "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/external/io_bazel_rules_scala_scala_reflect/scala-reflect-2.12.10.jar"
         ],
-        "out" : "/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:C",
-        "classesDir" : "/Users/syedajafri/dev/bazelExample/.bloop/out/ABC:C/classes",
+        "out" : "/Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:A",
+        "classesDir" : "/Users/syedajafri/dev/bazelExample/.bloop/out/BC_Z_disjoint:A/classes",
         "scala" : {
             "organization" : "org.scala-lang",
             "name" : "scala-compiler",
