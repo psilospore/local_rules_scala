@@ -4,7 +4,7 @@
         "name" : "BC_Z_disjoint:Z",
         "directory" : "/Users/syedajafri/dev/bazelExample",
         "sources" : [
-            "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/BC_Z_disjoint/Z.scala"
+            "/Users/syedajafri/dev/bazelExample/BC_Z_disjoint/Z.scala"
         ],
         "dependencies" : [
         ],

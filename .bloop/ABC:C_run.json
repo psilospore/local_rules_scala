@@ -4,7 +4,7 @@
         "name" : "ABC:C_run",
         "directory" : "/Users/syedajafri/dev/bazelExample",
         "sources" : [
-            "/private/var/tmp/_bazel_syedajafri/ad86228950bcb07c687f46ad51824bd1/execroot/__main__/ABC/C.scala"
+            "/Users/syedajafri/dev/bazelExample/ABC/C.scala"
         ],
         "dependencies" : [
             "ABC:C",
