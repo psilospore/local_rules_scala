@@ -1,0 +1,3 @@
+build --worker_extra_flag=ScalaCompile=--persistence_dir=bazel-zinc
+build --worker_extra_flag=ScalaCompile=--use_persistence=true
+build --worker_extra_flag=ScalaCompile=--max_errors=20

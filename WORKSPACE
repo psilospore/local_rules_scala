@@ -4,7 +4,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 
 # Load rules scala annex
-rules_scala_annex_commit = "ae99fcb08bbddfc24fef00d7b13f6c065e1df8d5"
+rules_scala_annex_commit = "76d19dcd731ded3a039d2927ea8bd8370bec0e37"
 rules_scala_annex_sha256 = "1630fc7ecc7a4ffeabcdef73c7600eab9cf3fd2377db1f69b8ce1927560211ff"
 local_repository(
     name = "rules_scala_annex",
@@ -60,5 +60,5 @@ protobuf_deps()
 # Specify the scala compiler we wish to use; in this case, we'll use the default one specified in rules_scala_annex
 bind(
     name = "default_scala",
-    actual = "@rules_scala_annex//src/main/scala:zinc_2_12_8",
+    actual = "@rules_scala_annex//src/main/scala:zinc_2_12_10",
 )
